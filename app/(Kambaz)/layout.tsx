@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import KambazNavigation from "./Navigation";
 import "./styles.css";
 

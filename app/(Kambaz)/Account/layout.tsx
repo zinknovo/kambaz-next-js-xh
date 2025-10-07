@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import AccountNavigation from "./Navigation";
 
 export default function AccountLayout({ children }: { children: React.ReactNode }) {
