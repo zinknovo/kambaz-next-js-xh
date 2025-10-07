@@ -4,29 +4,39 @@ export default function TOC() {
   return (
     <Nav variant="pills">
       <NavItem>
-        <NavLink href="/Labs" as={Link}>
-          Labs
-        </NavLink>
+        <Link href="/Labs" passHref legacyBehavior>
+          <NavLink>
+            Labs
+          </NavLink>
+        </Link>
       </NavItem>
       <NavItem>
-        <NavLink href="/Labs/Lab1" as={Link}>
-          Lab 1
-        </NavLink>
+        <Link href="/Labs/Lab1" passHref legacyBehavior>
+          <NavLink>
+            Lab 1
+          </NavLink>
+        </Link>
       </NavItem>
       <NavItem>
-        <NavLink href="/Labs/Lab2" as={Link}>
-          Lab 2
-        </NavLink>
+        <Link href="/Labs/Lab2" passHref legacyBehavior>
+          <NavLink>
+            Lab 2
+          </NavLink>
+        </Link>
       </NavItem>
       <NavItem>
-        <NavLink href="/Labs/Lab3" as={Link}>
-          Lab 3
-        </NavLink>
+        <Link href="/Labs/Lab3" passHref legacyBehavior>
+          <NavLink>
+            Lab 3
+          </NavLink>
+        </Link>
       </NavItem>
       <NavItem>
-        <NavLink href="/" as={Link}>
-          Kambaz
-        </NavLink>
+        <Link href="/" passHref legacyBehavior>
+          <NavLink>
+            Kambaz
+          </NavLink>
+        </Link>
       </NavItem>
       <NavItem>
         <NavLink href="https://github.com/zinknovo">MyGitHub</NavLink>

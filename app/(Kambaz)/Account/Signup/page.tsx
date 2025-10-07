@@ -24,15 +24,16 @@ export default function Signup() {
           type="password"
           className="mb-3"
         />
-        <Button
-          id="wd-signup-btn"
-          variant="primary"
-          className="w-100 mb-3"
-          as={Link}
-          href="/Account/Profile"
-        >
-          Sign up
-        </Button>
+        <Link href="/Account/Profile" passHref legacyBehavior>
+          <Button
+            id="wd-signup-btn"
+            variant="primary"
+            className="w-100 mb-3"
+            as="a"
+          >
+            Sign up
+          </Button>
+        </Link>
         <div className="text-center">
           <Link id="wd-signin-link" href="/Account/Signin">
             Sign in

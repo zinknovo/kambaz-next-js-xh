@@ -56,9 +56,11 @@ export default function Profile() {
         </Form.Group>
         <div className="d-grid gap-2 mt-4">
           <Button variant="primary">Update</Button>
-          <Button variant="danger" as={Link} href="/Account/Signin">
-            Sign out
-          </Button>
+          <Link href="/Account/Signin" passHref legacyBehavior>
+            <Button variant="danger" as="a">
+              Sign out
+            </Button>
+          </Link>
         </div>
       </Form>
     </div>
