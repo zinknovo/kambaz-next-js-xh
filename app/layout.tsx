@@ -1,4 +1,7 @@
 import { ReactNode } from "react";
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
@@ -15,7 +18,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           }}
         >
           <p style={{ margin: 0 }}>Xintao Hu | CS5610.18616.202610</p>
-          <a
+          <a id="wd-github"
             href="https://github.com/zinknovo/kambaz-next-js-xh"
             target="_blank"
           >
